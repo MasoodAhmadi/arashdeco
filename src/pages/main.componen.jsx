@@ -1,24 +1,40 @@
 import React from 'react';
+import './main.scss'
+import Particles from 'react-particles-js';
+import {Button} from 'react-bootstrap';
 
-class Myclass extends React.Component {
-    render(){
-        return (
-            <div id="main_wrapper">
-                    <header>
-                    <div id="main_title">
-                    <img src="C:\Users\Ahmad\Desktop\Third Semester\Practicing_web _Dev\images/arash_logo.png" alt="Logo de Zozor" id="logo" />
-                <h1>Decoration experienced</h1>
-                <h2>Decorating your wedding, birthday & gathering party at your door.</h2>
-                    </div>
-                <nav>
-                <ul class="ex1">
-                <li> home</li>
-                </ul>
-                </nav>
-                </header>
-                </div>
-    
+import Op from './another';
+
+const particlesOptions = {
+    particles: {
+      number: {
+        value: 138,
+        density: {
+          enable: true,
+          value_area: 800,
+        }
+      },
+     
+    },
+   
+}
+class Home extends React.Component {
+    render() {
+        return(
+
+            <div id="home_style">
+            <Particles className='particles'
+              params={particlesOptions}
+            />
+            <div>
+            <Op/>            
+            </div>
+            </div>
+           
+       
+
+
         )
     }
 }
- export default Myclass;
+export default Home; 
