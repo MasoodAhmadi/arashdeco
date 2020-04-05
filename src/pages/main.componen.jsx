@@ -1,7 +1,7 @@
 import React from 'react';
 import './main.scss'
 import Particles from 'react-particles-js';
-import {Button} from 'react-bootstrap';
+//import {Button} from 'react-bootstrap';
 
 import Op from './another';
 
