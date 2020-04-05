@@ -2,8 +2,9 @@ import React from 'react';
 import './main.scss'
 import Particles from 'react-particles-js';
 import Header from './Header';
+import FacebookIcon from '@material-ui/icons/Facebook';
 import Footer from './Footer';
-
+import {Link} from 'react-router-dom';
 //import {Button} from 'react-bootstrap';
 
 import Op from './another';
@@ -32,12 +33,12 @@ class Home extends React.Component {
                   <div>
                     <Header/> 
                     <Op/> 
-                    <div className = "table">
-                <header>
-                    <p>Footer</p>
-                </header>
-            </div>
 
+                    <Footer/>
+                    <div className="fc">
+
+                    <FacebookIcon/>
+                    </div>
 
 
 
