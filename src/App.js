@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Myclass from './pages/main.componen';
+import Myclass from './pages/Main';
 //import {Switch,Route} from 'react-router-dom';
 
 function App() {

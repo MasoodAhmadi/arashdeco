@@ -1,6 +1,9 @@
 import React from 'react';
 import './main.scss'
 import Particles from 'react-particles-js';
+import Header from './Header';
+import Footer from './Footer';
+
 //import {Button} from 'react-bootstrap';
 
 import Op from './another';
@@ -23,17 +26,23 @@ class Home extends React.Component {
         return(
 
             <div id="home_style">
-            <Particles className='particles'
-              params={particlesOptions}
-            />
-            <div>
-            <Op/>            
+                <Particles className='particles'
+                params={particlesOptions}
+                />
+                  <div>
+                    <Header/> 
+                    <Op/> 
+                    <div className = "table">
+                <header>
+                    <p>Footer</p>
+                </header>
             </div>
-            </div>
-           
-       
 
 
+
+
+                  </div>
+            </div>
         )
     }
 }

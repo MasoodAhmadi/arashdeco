@@ -10,16 +10,16 @@ import fifth from  '../Image/fifth.jpg';
 class Op extends React.Component {
     render() {
         return(
-         <div className = "main">
+         <div className = "">
             <div className = "table-holder">
                 <div class="row">
 
                     <div class="col-md-4">
                         <div class="thumbnail">
 
+                            
+                            <div><p className="txt">Same sample</p></div>
                             <a href="/w3images/lights.jpg" target="_blank">
-                            <div><p className="txt">Same simple</p></div>
-
                                 <img src={arash1} alt= "Logo" className="imk"/>
                                     <div class="caption">
                                         <p className="txt">Helsinki Hall</p>
