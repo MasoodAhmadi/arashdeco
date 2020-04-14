@@ -4,15 +4,12 @@ import './main.scss'
 class Header extends React.Component {
     render(){
         return(
-            <div className = "table-holder1">
-                <header className="li" >
-                        <h2>OMPELIMO ARASH</h2>
-                </header>
-
-               
-          </div>
+            <div class="grid-container">
+                <div class="grid-item">
+                      OMPELIMO ARASH    
+                </div>
+            </div>
         )
     }
 }
-
 export default Header;

@@ -5,8 +5,8 @@ import './footer.scss'
 class Footer extends React.Component {
     render(){
         return(
-            <div className = "table">
-                <header className="ft" >
+            <div className = "ll">
+                <header className="" >
                 <span class="text color-text-flow">
                     <p>Hämeentie 37, 00500 Helsinki, Puh: +358-442738577 </p>
                     </span>

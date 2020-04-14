@@ -1,16 +1,17 @@
-#home_style {
+.home-style {
     text-align: center;
     height: 105vh;
     background-image: linear-gradient(-225deg, rgb(143, 7, 233) 0%, #EC7405 48%, rgb(236, 5, 217) 100%);
     font-family: 'Poppins', sans-serif;
     opacity: 1;
     z-index: -1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 .header_fix{
     padding-top: 11%;
-}
-#newp {
-    font-size: 0.9em;;
 }
 .particles {
     position: fixed;
@@ -20,143 +21,107 @@
     left: 0;
     
   }
-  .table-holder {
-    width: 0vw;
-    height: 30vw !important;
-    margin: 0 auto;
-    margin-right: 2em;
-    padding: 1em 5em;
-    box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
-    border-radius: 10px;
-    &:hover {
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,.1);
-        transition: all 0.6s linear;
-    }
-}
-.table-holder1{
-    width: 40vw;
-    height: 7vw;
-    margin: 0 auto;
-    padding: 1em;
-    box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
-    border-radius: 10px;
-    &:hover {
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,.1);
-        transition: all 0.6s linear;
-    }
+  .grid-container {
+    display: grid;
+    grid-row-gap: 50px;
+    grid-template-columns: auto auto auto ;
+    padding: 40px;
+    margin: auto;
+    justify-content: center;
+  }
+  .grid-item {
+    background-color: rgba(233, 105, 105, 0.8);
+    padding: 25px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .fb{
+    position:relative;
+     right:70%; 
+     top:400px;
+  }
+  .inst{
+    position:relative;
+    right:80%; 
+    top:400px;
+  }
+  .yout{
+    position:relative;
+    right:80%; 
+    top:400px;
 
-}
-
-.fc{
-    margin-right: 100%;
-    margin-top: -4%;
-    size:1%;
-    width: 100px;
-    height: 100px;
-
-}
-
-.main {
-    padding-top: 2em ;
-    font-family: 'Poppins', sans-serif;
-    height: 10vh;
-}
-.levl{
-    margin-top: 10%;
-}
-.imk{
- height: 40%; 
- width: 140px;
- margin-left: -60px;
-}
-.txt{
-    text-indent: -100px;
-    margin-left: 50px;
-}
-.li{
-    font-family: system-ui;
-    font-size: 110px;
-     animation: Color 4s linear infinite;
-    -webkit-animation: Color 4s ease-in-out infinite;
-    text-shadow: 1px 1px #F0F0F0;
-    margin-top: 15px;
+  }
+  .dv {
+    box-sizing: border-box;
   }
   
-  @keyframes Color{
-    0%{
-      color:#A0D468;
-    }
-    
-    20%{
-      color:#4FC1E9;
-    }
-    
-    40%{
-      color:#FFCE54;
-    }
-    
-    60%{
-      color:#FC6E51;
-    }
-    
-    80%{
-      color:#ED5565;
-    }
-    
-    100%{
-      color:#AC92EC;
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+  .column {
+    float: left;
+    width: 20.3%;
+    margin-top: -84px;
+    padding: 0 8px;
+  }
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
     }
   }
-  
-  @-moz-keyframes Color{
-    0%{
-      color:#A0D468;
-    }
-    
-    20%{
-      color:#4FC1E9;
-    }
-    
-    40%{
-      color:#FFCE54;
-    }
-    
-    60%{
-      color:#FC6E51;
-    }
-    
-    80%{
-      color:#ED5565;
-    }
-    
-    100%{
-      color:#AC92EC;
-    }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(-225deg, rgb(143, 7, 233) 0%, #EC7405 48%, rgb(236, 5, 217) 100%);
+  }
+  .container {
+    padding: 0 8px;
   }
   
-  @-webkit-keyframes Color{
-    0%{
-      color:#A0D468;
-    }
-    
-    20%{
-      color:#4FC1E9;
-    }
-    
-    40%{
-      color:#FFCE54;
-    }
-    
-    60%{
-      color:#FC6E51;
-    }
-    
-    80%{
-      color:#ED5565;
-    }
-    
-    100%{
-      color:#AC92EC;
-    }
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .title {
+    color: grey;
   }
   
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  .gal {
+    margin: 15px;
+    border: 0px solid #ccc;
+    float: left;
+    width: 200px;
+  }
+  
+  .gal:hover {
+    border: 1px solid #777;
+  }
+  
+  .gal img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .desc {
+    padding: 20px;
+    text-align: center;
+  }
+  .mar{
+    position:-30px;
+  }
