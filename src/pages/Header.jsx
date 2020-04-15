@@ -4,8 +4,8 @@ import './main.scss'
 class Header extends React.Component {
     render(){
         return(
-            <div class="grid-container">
-                <div class="grid-item">
+            <div>
+                <div >
                       OMPELIMO ARASH    
                 </div>
             </div>

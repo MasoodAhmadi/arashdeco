@@ -6,6 +6,7 @@ import { IconButton } from '@material-ui/core';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import myprofile from  '../Image/myprofile.jpg';
+import Images from './Images';
 
 
 class Home extends React.Component {
@@ -19,27 +20,30 @@ class Home extends React.Component {
                       <div className="card">
                         <img src={myprofile} alt= "myprofile"/>
                         <div className="container">
-                            <h2>Arash Ahmadi</h2>
-                            <h2 className="title">CEO</h2>
+                            <h2><small>Arash Ahmadi</small></h2>
                             <p><center>Qualified party organizer</center></p>
                             <p><center>arashahmadi@gmail.com</center></p>
                         </div>
                       </div>
+                     
                     </div>          
                   </div>
-                  <IconButton className = "fb" >
-                   <FacebookIcon/>
-                  </IconButton>
-                
-                  <IconButton  >
-                    <InstagramIcon/>
-                  </IconButton>
+                  <Images/>
 
-                  <IconButton >
-                    <YouTubeIcon/>
-                  </IconButton>
+                 <div className="fb">
+                        <IconButton>
+                        <FacebookIcon/>
+                        </IconButton>
                 
+                        <IconButton  >
+                          <InstagramIcon/>
+                        </IconButton>
+
+                        <IconButton >
+                          <YouTubeIcon/>
+                        </IconButton>
                 
+                        </div>
             </div>
 
         )

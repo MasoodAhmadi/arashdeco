@@ -16,7 +16,8 @@
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-image: linear-gradient(-225deg, rgb(143, 7, 233) 0%, #EC7405 48%, rgb(236, 5, 217) 100%);
-  margin:20px
+  margin:37px;
+  padding:20px;
 }
 
 .title {
@@ -27,7 +28,22 @@
 h2{
   font-style: oblique;
 }
+.Image-fix
+{
+  margin: auto;
+  border: 1px solid #ccc;
+  float: left;
+  width: 10px;
+}
+.Image-fix{
+  width: 10%;
+  height: auto;
+}
 .fb{
+  float: left;
+  margin-top:-35px;
+  margin-left: 35px;
+  padding:25px;
 }
 
 
