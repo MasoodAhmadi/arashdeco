@@ -1,6 +1,5 @@
 import React from 'react';
 import './main.scss'
-import Particles from 'react-particles-js';
 import Header from './Header';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import { IconButton } from '@material-ui/core';
@@ -8,81 +7,39 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import myprofile from  '../Image/myprofile.jpg';
 
-//import Footer from './Footer';
-//import {Link} from 'react-router-dom';
-//import {Button} from 'react-bootstrap';
 
-import Op from './another';
-
-const particlesOptions = {
-  particles: {
-    number: {
-      value: 50,
-      density: {
-        enable: true,
-        value_area: 1000,
-      }
-    },
-    "color": {
-      "value": "#FFF"
-    }
-  },
-  "interactivity": {
-      "detect_on": "canvas",
-      "events": {
-        "onhover": {
-          "enable": true,
-          "mode": "repulse"
-        },
-        "onclick": {
-          "enable": true,
-          "mode": "push"
-        },
-        "resize": true
-      },
-  }
-}
 class Home extends React.Component {
     render() {
         return(
-
-            <div className="home-style">
-                <Particles className='particles'
-                  params={particlesOptions}
-                  />
+            <div >
+                
                 <Header/>
-                <div class="dv">
-                <div class="column">
-                    <div className="card">
+                  <div className="row">
+                    <div className= "">
+                      <div className="card">
                         <img src={myprofile} alt= "myprofile"/>
-                            <div class="container">
-                                <h2>Arash Ahmadi</h2>
-                                    <p class="title">CEO</p>
-                                    <p>Qualified party organizer</p>
-                                    <p>arashahmadi@gmail.com</p>
-                                    <p><button class="button">Contact</button></p>
-                            </div>
-                    </div>
-                    </div>
-                    </div>
-
-
-                <Op/>
-
-
-                <IconButton  className = "fb">
-                  <FacebookIcon/>
-                </IconButton>
+                        <div className="container">
+                            <h2>Arash Ahmadi</h2>
+                            <h2 className="title">CEO</h2>
+                            <p><center>Qualified party organizer</center></p>
+                            <p><center>arashahmadi@gmail.com</center></p>
+                        </div>
+                      </div>
+                    </div>          
+                  </div>
+                  <IconButton className = "fb" >
+                   <FacebookIcon/>
+                  </IconButton>
                 
-                <IconButton  className = "inst">
-                <InstagramIcon/>
-                </IconButton>
+                  <IconButton  >
+                    <InstagramIcon/>
+                  </IconButton>
 
-                <IconButton  className = "yout">
-                <YouTubeIcon/>
-                </IconButton>
+                  <IconButton >
+                    <YouTubeIcon/>
+                  </IconButton>
                 
-
+                
             </div>
 
         )

@@ -1,128 +1,38 @@
-.home-style {
-    text-align: center;
-    height: 105vh;
-    background-image: linear-gradient(-225deg, rgb(143, 7, 233) 0%, #EC7405 48%, rgb(236, 5, 217) 100%);
+.home_style {
+    background-image: linear-gradient(-225deg, rgb(143, 7, 233) 0%, #EC7405 48%, rgb(236, 5, 217) );
     font-family: 'Poppins', sans-serif;
-    opacity: 1;
-    z-index: -1;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-.header_fix{
-    padding-top: 11%;
-}
-.particles {
     position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    
-  }
-  .grid-container {
-    display: grid;
-    grid-row-gap: 50px;
-    grid-template-columns: auto auto auto ;
-    padding: 40px;
-    margin: auto;
-    justify-content: center;
-  }
-  .grid-item {
-    background-color: rgba(233, 105, 105, 0.8);
-    padding: 25px;
-    font-size: 20px;
-    text-align: center;
-  }
-  .fb{
-    position:relative;
-     right:70%; 
-     top:400px;
-  }
-  .inst{
-    position:relative;
-    right:80%; 
-    top:400px;
-  }
-  .yout{
-    position:relative;
-    right:80%; 
-    top:400px;
+    width: 100%;
+    height: 100%;
 
-  }
-  .dv {
-    box-sizing: border-box;
-    position: flex;
-  }
-  
-*, *:before, *:after {
-  box-sizing: inherit;
 }
-  .column {
-    float: left;
-    width: 20.3%;
-    margin-top: -84px;
-    padding: 0 8px;
-  }
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
-    }
-  }
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-image: linear-gradient(-225deg, rgb(143, 7, 233) 0%, #EC7405 48%, rgb(236, 5, 217) 100%);
-  }
-  .container {
-    padding: 0 8px;
-  }
-  
-  .container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  .title {
-    color: grey;
-  }
-  
-  .button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-  }
-  
-  .button:hover {
-    background-color: #555;
-  }
-  .gal {
-    margin: 15px;
-    border: 0px solid #ccc;
-    float: left;
-    width: 200px;
-  }
-  
-  .gal:hover {
-    border: 1px solid #777;
-  }
-  
-  .gal img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .desc {
-    padding: 20px;
-    text-align: center;
-  }
-  .mar{
-    position:-30px;
-  }
+.particles-js {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(-225deg, rgb(143, 7, 233) 0%, #EC7405 48%, rgb(236, 5, 217) 100%);
+  margin:20px
+}
+
+.title {
+  color: grey;
+  text-align: center;
+}
+
+h2{
+  font-style: oblique;
+}
+.fb{
+}
+
+
+
+
+
+
+
