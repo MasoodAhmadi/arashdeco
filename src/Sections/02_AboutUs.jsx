@@ -1,11 +1,7 @@
 import React from "react";
-//import About from "../img/about-img.svg";
 import About from "../Image/about1.jpg";
 
-//import Extra from "../img//about-extra-1.svg";
 import Extra from "../Image//about2.jpg";
-
-//import Extra2 from "../img/about-extra-2.svg";
 import Extra2 from "../Image/about3.jpg";
 
 class AboutUs extends React.Component {
