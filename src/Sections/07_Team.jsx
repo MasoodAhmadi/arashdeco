@@ -3,6 +3,7 @@ import team2 from "../Image/pic1.jpg";
 import team1 from "../Image/pic5.jpg";
 import team3 from "../Image/pic3.jpg";
 import team4 from "../Image/pic4.jpg";
+import { Link } from "react-router-dom";
 
 class Team extends React.Component {
   render() {
@@ -27,18 +28,18 @@ class Team extends React.Component {
                       <h4>Haris Presidenti</h4>
                       <span>Song organizer</span>
                       <div class="social">
-                        <a href="">
+                        <Link to="">
                           <i class="fa fa-twitter"></i>
-                        </a>
-                        <a href="">
+                        </Link>
+                        <Link to="">
                           <i class="fa fa-facebook"></i>
-                        </a>
-                        <a href="">
+                        </Link>
+                        <Link to="">
                           <i class="fa fa-google-plus"></i>
-                        </a>
-                        <a href="">
+                        </Link>
+                        <Link to="">
                           <i class="fa fa-linkedin"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -53,18 +54,18 @@ class Team extends React.Component {
                       <h4>Arash Ahmadi</h4>
                       <span>CEO</span>
                       <div class="social">
-                        <a href="">
+                        <Link to="">
                           <i class="fa fa-twitter"></i>
-                        </a>
-                        <a href="">
+                        </Link>
+                        <Link to="">
                           <i class="fa fa-facebook"></i>
-                        </a>
-                        <a href="">
+                        </Link>
+                        <Link to="">
                           <i class="fa fa-google-plus"></i>
-                        </a>
-                        <a href="">
+                        </Link>
+                        <Link to="">
                           <i class="fa fa-linkedin"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -79,18 +80,18 @@ class Team extends React.Component {
                       <h4>Habil Ahmadi</h4>
                       <span>Assistant</span>
                       <div class="social">
-                        <a href="">
+                        <Link to="">
                           <i class="fa fa-twitter"></i>
-                        </a>
-                        <a href="">
+                        </Link>
+                        <Link to="">
                           <i class="fa fa-facebook"></i>
-                        </a>
-                        <a href="">
+                        </Link>
+                        <Link to="">
                           <i class="fa fa-google-plus"></i>
-                        </a>
-                        <a href="">
+                        </Link>
+                        <Link to="">
                           <i class="fa fa-linkedin"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -105,18 +106,18 @@ class Team extends React.Component {
                       <h4>Jamil Ahmadi</h4>
                       <span>Camera man</span>
                       <div class="social">
-                        <a href="">
+                        <Link to="">
                           <i class="fa fa-twitter"></i>
-                        </a>
-                        <a href="">
+                        </Link>
+                        <Link to="">
                           <i class="fa fa-facebook"></i>
-                        </a>
-                        <a href="">
+                        </Link>
+                        <Link to="">
                           <i class="fa fa-google-plus"></i>
-                        </a>
-                        <a href="">
+                        </Link>
+                        <Link to="">
                           <i class="fa fa-linkedin"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>

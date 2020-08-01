@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 class WhyChooseUs extends React.Component {
   render() {
@@ -22,9 +23,9 @@ class WhyChooseUs extends React.Component {
                   <div class="card-body">
                     <h5 class="card-title">to be added</h5>
                     <p class="card-text">writing statement left</p>
-                    <a href="#" class="readmore">
+                    <Link to="" class="readmore">
                       Read more{" "}
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -35,9 +36,9 @@ class WhyChooseUs extends React.Component {
                   <div class="card-body">
                     <h5 class="card-title">to be added</h5>
                     <p class="card-text">writing statement left</p>
-                    <a href="#" class="readmore">
+                    <Link to="" class="readmore">
                       Read more{" "}
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -48,9 +49,9 @@ class WhyChooseUs extends React.Component {
                   <div class="card-body">
                     <h5 class="card-title">to be added</h5>
                     <p class="card-text">writing statement left. </p>
-                    <a href="#" class="readmore">
+                    <Link to="" class="readmore">
                       Read more{" "}
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

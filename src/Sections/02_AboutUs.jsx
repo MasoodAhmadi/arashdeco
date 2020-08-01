@@ -3,6 +3,7 @@ import About from "../Image/about1.jpg";
 
 import Extra from "../Image//about2.jpg";
 import Extra2 from "../Image/about3.jpg";
+import { Link } from "react-router-dom";
 
 class AboutUs extends React.Component {
   render() {
@@ -33,7 +34,7 @@ class AboutUs extends React.Component {
                     <i class="fa fa-shopping-bag"></i>
                   </div>
                   <h4 class="title">
-                    <a href="">Logrus ry</a>
+                    <Link to="/">Logrus ry</Link>
                   </h4>
                   <p class="description">
                     Designing and creating a dress is remarkably simple, and can
@@ -49,7 +50,7 @@ class AboutUs extends React.Component {
                     <i class="fa fa-photo"></i>
                   </div>
                   <h4 class="title">
-                    <a href="">Ventage Design</a>
+                    <Link to="/">Ventage Design</Link>
                   </h4>
                   <p class="description">
                     Fashion design is an exciting, constantly evolving field. It
@@ -64,7 +65,7 @@ class AboutUs extends React.Component {
                     <i class="fa fa-bar-chart"></i>
                   </div>
                   <h4 class="title">
-                    <a href="">Arash Prospective</a>
+                    <Link to="">Arash Prospective</Link>
                   </h4>
                   <p class="description">
                     This is where things can get a little complicated. But don't

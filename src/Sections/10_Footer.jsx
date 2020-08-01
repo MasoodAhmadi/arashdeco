@@ -1,6 +1,7 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import video from "../Image/video-1595268422.mp4";
+import { Link } from "react-router-dom";
 
 class Footer extends React.Component {
   constructor(props) {
@@ -34,19 +35,19 @@ class Footer extends React.Component {
                   <h4>Useful Links</h4>
                   <ul>
                     <li>
-                      <a href="#">Home</a>
+                      <Link to="">Home</Link>
                     </li>
                     <li>
-                      <a href="#">About us</a>
+                      <Link to="">About us</Link>
                     </li>
                     <li>
-                      <a href="#">Services</a>
+                      <Link to="">Services</Link>
                     </li>
                     <li>
-                      <a href="#">Terms of service</a>
+                      <Link to="">Terms of service</Link>
                     </li>
                     <li>
-                      <a href="#">Privacy policy</a>
+                      <Link to="">Privacy policy</Link>
                     </li>
                   </ul>
                 </div>
@@ -65,21 +66,21 @@ class Footer extends React.Component {
                   </p>
 
                   <div class="social-links">
-                    <a href="#" class="twitter">
+                    <Link to="" class="twitter">
                       <i class="fa fa-twitter"></i>
-                    </a>
-                    <a href="#" class="facebook">
+                    </Link>
+                    <Link to="" class="facebook">
                       <i class="fa fa-facebook"></i>
-                    </a>
-                    <a href="#" class="instagram">
+                    </Link>
+                    <Link to="" class="instagram">
                       <i class="fa fa-instagram"></i>
-                    </a>
-                    <a href="#" class="google-plus">
+                    </Link>
+                    <Link to="" class="google-plus">
                       <i class="fa fa-google-plus"></i>
-                    </a>
-                    <a href="#" class="linkedin">
+                    </Link>
+                    <Link to="" class="linkedin">
                       <i class="fa fa-linkedin"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="video">
@@ -100,7 +101,7 @@ class Footer extends React.Component {
               &copy; Copyright <strong>Arash Decor</strong>. All Rights Reserved
             </div>
             <div class="credits">
-              Designed by <a>Masood Ahmadi</a>
+              Designed by <Link>Masood Ahmadi</Link>
             </div>
           </div>
         </footer>

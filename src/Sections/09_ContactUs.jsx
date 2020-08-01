@@ -1,4 +1,5 @@
 import React from "react";
+import { Form } from "react-bootstrap";
 
 class ContactUs extends React.Component {
   render() {
@@ -14,6 +15,7 @@ class ContactUs extends React.Component {
               <div class="col-lg-6">
                 <div class="map mb-4 mb-lg-0">
                   <iframe
+                    title="a sample video"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.506238837833!2d24.96206131560245!3d60.18890464884753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920979389743e3%3A0x8eb2bed06f6d54da!2sH%C3%A4meentie%2037%2C%2000500%20Helsinki!5e0!3m2!1sen!2sfi!4v1595014637930!5m2!1sen!2sfi"
                     frameborder="0"
                     style={{ border: "0", width: "100%", height: "312px" }}
@@ -43,7 +45,7 @@ class ContactUs extends React.Component {
                     Your message has been sent. Thank you!
                   </div>
                   <div id="errormessage"></div>
-                  <form action="" method="post" role="form" class="contactForm">
+                  <Form action="" method="post" role="form" class="contactForm">
                     <div class="form-row">
                       <div class="form-group col-lg-6">
                         <input
@@ -98,7 +100,7 @@ class ContactUs extends React.Component {
                         Send Message
                       </button>
                     </div>
-                  </form>
+                  </Form>
                 </div>
               </div>
             </div>

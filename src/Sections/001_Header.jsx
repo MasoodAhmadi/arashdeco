@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../Image/nwwww.png";
+import { Link } from "react-router-dom";
 
 class Header extends React.Component {
   render() {
@@ -8,66 +9,37 @@ class Header extends React.Component {
         <header id="header" class="fixed-top">
           <div class="container">
             <div class="logo float-left">
-              <a href="#intro" class="scrollto">
-                <img src={logo} alt="" class="img-fluid" style={{width: "150px",maxHeight:"120px",marginTop:"-15%"}}/>
-              </a>
+              <Link to="/intro" class="scrollto">
+                <img
+                  src={logo}
+                  alt=""
+                  class="img-fluid"
+                  style={{
+                    width: "150px",
+                    maxHeight: "120px",
+                    marginTop: "-15%",
+                  }}
+                />
+              </Link>
             </div>
             <nav class="main-nav float-right d-none d-lg-block">
               <ul>
                 <li class="active">
-                  <a href="#home">Home</a>
+                  <Link to="/home">Home</Link>
                 </li>
                 <li>
-                  <a href="#about">About Us</a>
+                  <Link to="/about">About Us</Link>
                 </li>
                 <li>
-                  <a href="#services">Services</a>
+                  <Link to="/services">Services</Link>
                 </li>
-                {/*<li>
-                  <a href="#portfolio">Portfolio</a>
-                </li>*/}
+
                 <li>
-                  <a href="#team">Team</a>
+                  <Link to="/team">Team</Link>
                 </li>
-                {/*  <li class="drop-down">
-                  <a href="">Drop Down</a>
-                  <ul>
-                    <li>
-                      <a href="#">Drop Down 1</a>
-                    </li>
-                    <li class="drop-down">
-                      <a href="#">Drop Down 2</a>
-                       <ul>
-                        <li>
-                          <a href="#">Deep Drop Down 1</a>
-                        </li>
-                        <li>
-                          <a href="#">Deep Drop Down 2</a>
-                        </li>
-                        <li>
-                          <a href="#">Deep Drop Down 3</a>
-                        </li>
-                        <li>
-                          <a href="#">Deep Drop Down 4</a>
-                        </li>
-                        <li>
-                          <a href="#">Deep Drop Down 5</a>
-                        </li>
-                   </ul>
-                    </li>
-                    <li>
-                      <a href="#">Drop Down 3</a>
-                    </li>
-                    <li>
-                      <a href="#">Drop Down 4</a>
-                    </li>
-                    <li>
-                      <a href="#">Drop Down 5</a>
-                    </li>
-                  </ul>
-                </li>*/}
+
                 <li>
-                  <a href="#contact">Contact Us</a>
+                  <Link to="/contact">Contact Us</Link>
                 </li>
               </ul>
             </nav>

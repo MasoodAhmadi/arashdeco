@@ -1,5 +1,6 @@
 import React from "react";
 import intro from "../Image/qq1.png";
+import { Link } from "react-router-dom";
 
 class Introduction extends React.Component {
   render() {
@@ -20,12 +21,12 @@ class Introduction extends React.Component {
                 for your Weddings!
               </h2>
               <div>
-                <a href="#about" class="btn-get-started scrollto">
+                <Link to="/about" class="btn-get-started scrollto">
                   Get Started
-                </a>
-                <a href="#services" class="btn-services scrollto">
+                </Link>
+                <Link to="/services" class="btn-services scrollto">
                   Our Services
-                </a>
+                </Link>
               </div>
             </div>
           </div>
